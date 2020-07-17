@@ -1,0 +1,12 @@
+.container {
+  background-color: var(--color-background-darker);
+  height: 95vh;
+}
+
+.heroContainer {
+  align-items: center;
+  display: flex;
+  height: calc(100% - 70px);
+  margin: 0 auto;
+  max-width: var(--max-width);
+}

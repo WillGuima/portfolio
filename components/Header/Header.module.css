@@ -1,0 +1,25 @@
+.container {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.logoContainer {
+  align-items: center;
+  display: flex;
+}
+
+.logoImage {
+  width: 18px;
+}
+
+.logo {
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-left: 10px;
+}

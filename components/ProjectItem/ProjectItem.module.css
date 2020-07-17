@@ -1,0 +1,80 @@
+.container {
+  background-color: #313552;
+  border-radius: 5px;
+  height: 445px;
+  padding: 30px;
+  width: 360px;
+}
+
+.title {
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.description {
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.techContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.tech {
+  height: 35px;
+}
+
+.divider {
+  background-color: var(--color-white);
+  height: 1px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.sourceContainer {
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  text-decoration: none;
+  width: auto;
+}
+
+.sourceItem {
+  align-items: flex-end;
+  display: flex;
+  text-decoration: none;
+  width: auto;
+}
+
+.source {
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.button {
+  align-items: center;
+  background-color: var(--color-green);
+  border: none;
+  color: var(--color-white);
+  cursor: pointer;
+  display: flex;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 0.875rem;
+  height: 53px;
+  justify-content: center;
+  margin: 20px auto;
+  text-decoration: none;
+  width: 165px;
+}
