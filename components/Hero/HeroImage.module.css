@@ -1,0 +1,9 @@
+.container {
+  height: 300px;
+  margin-left: 130px;
+}
+
+.image {
+  max-height: 100%;
+  max-width: 100%;
+}

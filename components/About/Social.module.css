@@ -1,0 +1,29 @@
+.container {
+  background-color: var(--color-background-dark);
+  border-radius: 5px;
+  height: 90px;
+  position: relative;
+  margin-top: 30px;
+  width: 210px;
+}
+
+.title {
+  color: var(--color-white);
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+  position: absolute;
+  left: 15px;
+  top: -15px;
+}
+
+.logoContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  width: 35px;
+}

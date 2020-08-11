@@ -28,7 +28,7 @@ export default function ProjectItem({
           : null
         }
       </div>
-      <a href={liveLink} className={styles.button}>
+      <a href={liveLink} className={styles.button} target="_blank" rel="noopener noreferrer">
         Live view
       </a>
     </div>

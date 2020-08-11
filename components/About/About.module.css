@@ -1,0 +1,42 @@
+.container {
+  background-color: #22273B;
+}
+
+.maxlayout {
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding-bottom: 40px;
+}
+
+.containerWrapper {
+  color: var(--color-white);
+  display: flex;
+  font-family: 'Roboto';
+  justify-content: space-between;
+  padding: 21px 0;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 25px;
+  max-width: 555px;
+}
+
+.logo {
+  margin-right: 18px;
+  width: 40px;
+}
+
+.education {
+  display: flex;
+}
+
+.university {
+  margin-top: 10px;
+}

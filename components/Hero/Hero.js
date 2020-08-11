@@ -4,6 +4,7 @@ import styles from './Hero.module.css'
 
 import Header from '../Header'
 import Headline from './Headline'
+import HeroImage from './HeroImage'
 
 export default function Hero() {
   return (
@@ -11,6 +12,7 @@ export default function Hero() {
       <Header />
       <section className={styles.heroContainer}>
         <Headline />
+        <HeroImage />
       </section>
     </main>
   )

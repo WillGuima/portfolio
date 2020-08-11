@@ -14,10 +14,10 @@ export default function Navbar(props) {
             <a className={styles.listItem} href="#portfolio">Projects</a>
           </li>
           <li>
-            <a className={styles.listItem} href="">About</a>
+            <a className={styles.listItem} href="#about">About</a>
           </li>
           <li>
-            <a className={styles.listItem} href="">Contact</a>
+            <a className={styles.listItem} href="#contact">Contact</a>
           </li>
         </ul>
       </div>

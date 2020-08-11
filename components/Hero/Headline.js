@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from './Headline.module.css'
 
-import ButtonHero from '../Buttons/ButtonHero'
+import ButtonHero from '../Buttons'
 
 export default function Headline() {
   return (
