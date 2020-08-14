@@ -27,7 +27,7 @@ export default function Home() {
             { tech: '/javascript.jpg', alt: 'Javascript Logo'},
             { tech: '/reactjs.png', alt: 'ReactJS Logo'},
             { tech: '/nodejs.png', alt: 'NodeJS Logo'},
-            { tech: '/mongodb.png', alt: 'MongoDB Logo'},
+            { tech: '/mongodb.svg', alt: 'MongoDB Logo'},
             { tech: '/figma.png', alt: 'Figma Logo'}, 
           ]}
           gitLink=""
@@ -35,7 +35,7 @@ export default function Home() {
           source={false}
         />
         <ProjectItem
-          title="LandinPage - Luciana Rugoni"
+          title="LandingPage - Luciana Rugoni"
           description="Personal landingpage built for a Brazilian professor to advertise his services. 
           The public in mind was young highschool students aiming to go to college."
           techs={[

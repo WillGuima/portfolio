@@ -6,7 +6,7 @@ import Header from '../Header'
 import Headline from './Headline'
 import HeroImage from './HeroImage'
 
-export default function Hero() {
+const Hero = () => {
   return (
     <main className={styles.container} id="home">
       <Header />
@@ -17,3 +17,5 @@ export default function Hero() {
     </main>
   )
 }
+
+export default Hero

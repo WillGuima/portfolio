@@ -9,34 +9,94 @@
 }
 
 .containerWrapper {
+  align-items: flex-start;
   color: var(--color-white);
   display: flex;
+  flex-direction: column;
   font-family: 'Roboto';
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 21px 0;
 }
 
-.title {
-  font-size: 1.5rem;
-  font-weight: 900;
+.tabsContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cardContainer {
+  background-color: #313552;
+  height: 474px;
+  width: 945px;
+}
+
+.contentContainer {
+  display: flex;
+  height: 100%;
+  padding: 35px 40px;
+}
+
+.pictureContainer {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.picture {
+  width: 225px;
+}
+
+.textContainer {
+  width: 500px;
 }
 
 .text {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-top: 25px;
-  max-width: 555px;
+  margin-top: 28px;
 }
 
-.logo {
-  margin-right: 18px;
-  width: 40px;
-}
-
-.education {
+.uniContainer {
+  align-items: center;
   display: flex;
+  margin-top: 15px;
 }
 
-.university {
+.profContainer {
+  align-items: center;
+  display: flex;
+  margin-top: 15px;
+}
+
+.uspLogo {
+  margin-right: 10px;
+  width: 50px;
+}
+
+.usp {
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+}
+
+.info {
+  font-weight: 400;
   margin-top: 10px;
+}
+
+.srLogo {
+  margin-right: 10px;
+  width: 127px;
+}
+
+.sr {
+  font-size: 1rem;
+}
+
+.geLogo {
+  margin-right: 10px;
+  width: 35px;
+}
+
+.voithLogo {
+  margin-right: 10px;
+  width: 84px;
 }
