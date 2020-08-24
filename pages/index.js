@@ -48,25 +48,6 @@ export default function Home() {
           source={false}
         />
       </Projects>
-      <Projects
-        title="Portfolio Projects"
-        background="#1E2336"
-        id="commercial"
-      >
-        <ProjectItem
-          title="QuizAPP"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia ex in erat sollicitudin, 
-            eget venenatis nisi finibus. Donec ullamcorper odio urna, at laoreet nibh luctus vel. 
-            Suspendisse potenti."
-          techs={[
-            { tech: '/javascript.jpg', alt: 'Javascript Logo'}, 
-            { tech: '/figma.png', alt: 'Figma Logo'}, 
-          ]}
-          gitLink=""
-          liveLink=""
-          source={true}
-        />
-      </Projects>
       <About />
       <Contact />
     </div>

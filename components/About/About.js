@@ -31,10 +31,11 @@ const About = () => {
       case 1:
         return (<Card title='About me' image='/william.png' >
           <p className={styles.text}>
-            Cras et efficitur justo. Curabitur accumsan accumsan ipsum, eget mollis augue hendrerit non. 
-            Etiam a lacus interdum, commodo erat sed, vulputate augue. Sed at metus consectetur, vulputate 
-            eros sit amet, auctor tellus. Donec lobortis diam turpis. Donec in sem vitae urna tincidunt 
-            posuere id quis ligula.
+          I am a self-taught software developer who is able to design and build a web app from the ground up. 
+          I am focused on Javascript technologies, such as ReactJS and NodeJS.
+          <br/>
+          <br/>
+          Former project engineer for hydroelectric powerplants.
           </p>
         </Card>)
       case 2:
@@ -61,16 +62,16 @@ const About = () => {
             <p className={styles.sr}>GE Renewable Energy. Senior Engineer  oct/2018 - dec/2019</p>
           </div>
           <p className={styles.info}>
-            I helped build the web app from the ground up using technologies such as: ReactJS, NodeJS, 
-            ExpressJS and MongoDB. Also resposible for design changes planning with Figma.
+          Senior engineer for hydroelectric powerplants, specifically with the electrical balance of plant 
+          (overall electrical infrastructure). Worked remotely with the Canadian team and with projects from Europe and Asia.
           </p>
           <div className={styles.profContainer}>
             <img className={styles.voithLogo} src='/voith.png' alt='Sua Redação Logo' />
             <p className={styles.sr}>Voith Hydro. Project Engineer  jan/2012 - feb/2018</p>
           </div>
           <p className={styles.info}>
-            I helped build the web app from the ground up using technologies such as: ReactJS, NodeJS, 
-            ExpressJS and MongoDB. Also resposible for design changes planning with Figma.
+            Project engineer for hydroelectric powerplants, responsible for design calculations and technical documents 
+            for the electrical balance of plant of new powerplants.
           </p>
         </Card>)
     }
